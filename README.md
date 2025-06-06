@@ -1350,7 +1350,7 @@ _stq.push(['view', {'blog':'244970907','v':'wpcom','tz':'-4','user':'1','user_id
 _stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mJVY3bm9aR3VCbS9mWm1pRyZuJS1LX1t5QmRXZzE3RC9rQWZHK1FjbDltdWdaMVFFZTcxUGVHLWR0WTJoODFFSDFKMmdBdysuWmJ6fkpUJXxZPVlCQmdrMTRfSTAxdGdjNCt6SmJwYTY2dXpXRjFjRG1dSGxoTTZmTUVqYnR4VmZodERvWUhSNGRkPVNaRnpBZW5pQWV5MmZ4bnQuVW04X05iS05xcG4zNG8vRzhPeVc9LTczLTF4NS0wMD95alN1VjEyOV0xbUxJNmdWNU4lWTAuMlZOOXRKZExOeGxnZVV1N3hSZmw='}]);
 </script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
-<script defer id="bilmur" data-customproperties="{&quot;logged_in&quot;:&quot;1&quot;,&quot;wptheme&quot;:&quot;pub\/twentytwentyfour&quot;,&quot;wptheme_is_block&quot;:&quot;1&quot;}" data-provider="wordpress.com" data-service="simple" data-site-tz="America/La_Paz"   src="/wp-content/js/bilmur-4.min.js?i=13&m=202523"></script><div id="marketingbar" class="marketing-bar noskim  "><div class="marketing-bar-text">Mejora tu plan para eliminar el banner y descubrir más funciones, desde 4 US$/mes.</div><a class="marketing-bar-button" href="https://wordpress.com/plans/asia738.wordpress.com/?ref=marketing_bar">Mejorar el plan</a><a class="marketing-bar-link" tabindex="-1" aria-label="Crea tu página web en WordPress.com" href="https://wordpress.com/plans/asia738.wordpress.com/?ref=marketing_bar"></a></div>		<script type="text/javascript">
+
 			window._tkq = window._tkq || [];
 
 			window._tkq.push( [ 'recordEvent', 'wpcom_marketing_bar_impression', {"is_current_user_blog_owner":true} ] );
