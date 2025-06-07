@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marketing Hoy</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .noticia {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .noticia img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .noticia h2 {
+      margin-top: 10px;
+      color: #1a73e8;
+    }
+
+    .noticia p {
+      margin-top: 8px;
+      font-size: 0.95em;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Marketing Hoy</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Campañas</a></li>
+        <li><a href="#">Marcas</a></li>
+        <li><a href="#">Digital</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="noticia">
+      <img src="https://via.placeholder.com/300x180" alt="Campaña creativa" />
+      <h2>Coca-Cola lanza campaña interactiva global</h2>
+      <p>La nueva iniciativa permite a los usuarios crear latas personalizadas desde sus móviles.</p>
+    </section>
+
+    <section class="noticia">
+      <img src="https://via.placeholder.com/300x180" alt="Marketing viral" />
+      <h2>Campaña de sneakers se vuelve viral en TikTok</h2>
+      <p>Una marca emergente conquistó millones de visualizaciones con un reto de baile
