@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noticias Hoy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: #f0f0f8;
+      color: #222;
+    }
+
+    .header {
+      background-color: #111;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: url('mapa-fondo.png') no-repeat center center;
+      background-size: cover;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: white;
+      background-color: #2b2d42;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .botones .btn {
+      margin: 0 1rem;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .btn.azul {
+      background-color: #2a9df4;
+      color: white;
+    }
+
+    .btn.morado {
+      background-color: #9b59b6;
+      color: white;
+    }
+
+    .btn.naranja {
+      background-color: #f39c12;
+      color: white;
+      margin-top: 1rem;
+    }
+
+    .sobre-nosotros {
+      background-color: #7b81ff;
+      padding: 3rem 2rem;
+      color: white;
+    }
+
+    .sobre-nosotros .contenido {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .sobre-nosotros .imagen img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    .destacadas {
+      padding: 2rem;
+      background-color: white;
+    }
+
+    .destacadas h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .noticias {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .noticia {
+      background-color: #e8e8e8;
+      padding: 1rem;
+      border-radius: 10px;
+      width: 300px;
+    }
+
+    .noticia .fecha {
+      font-size: 0.8rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #7b81ff;
+      color: white;
+    }
+
+    .footer .sociales a {
+      color: white;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">NoticiasHoy</div>
+    <nav class="nav">
+      <a href="#">Inicio</a>
+      <a href="#">Nacional</a>
+      <a href="#">Ciencia y Tecnología</a>
+      <a href="#">Contactos</a>
+      <a href="#">Blog</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>"El mundo cambia, nosotros te lo contamos"</h1>
+    <div class="botones">
+      <button class="btn azul">Suscríbete</button>
+      <button class="btn morado">Contáctanos</button>
+    </div>
+  </section>
+
+  <section class="sobre-nosotros">
+    <div class="contenido">
+      <div class="texto">
+        <h2>Sobre nosotros</h2>
+        <p>
+          Noticias Hoy es tu fuente de noticias del día. Te presentamos hechos verificados, información precisa y una narrativa clara. Nuestro equipo de reporteros cubre los eventos más importantes a nivel nacional e internacional. Estamos comprometidos con la verdad, la independencia y el servicio a la ciudadanía.
+        </p>
+        <button class="btn naranja">Leer más</button>
+      </div>
+      <div class="imagen">
+        <img src="reportero.png" alt="Reportero caricatura" />
+      </div>
+    </div>
+  </section>
+
+  <section class="destacadas">
+    <h2>Noticias Destacadas</h2>
+    <div class="noticias">
+      <div class="noticia">
+        <p class="fecha">06/05/2025 - 21:24 | País</p>
+        <h3>La licencia de conducir tiene nuevo diseño y entran en vigencia las provisionales para adolescentes</h3>
+        <p>Incluye nuevas características y datos que permitirán dar una mejor seguridad a los conductores.</p>
+      </div>
+      <div class="noticia">
+        <p class="fecha">06/05/2025 - 20:41 | Cochabamba</p>
+        <h3>El empadronamiento electoral masivo termina este miércoles 7 de mayo</h3>
+        <p>El Sereci decidió ampliar el plazo. Este trámite interesa a los que cumplen 18 años hasta el 7 de agosto o que cambiaron de domicilio después de las elecciones judiciales.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 NoticiasHoy. Creado con WordPress y Kadence.</p>
+    <div class="sociales">
+      <a href="#">FB</a>
+      <a href="#">TW</a>
+      <a href="#">IG</a>
+    </div>
+  </footer>
+</body>
+</html>
