@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TecnoNoticias</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background-color: #0f172a;
+      color: white;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .noticia {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .noticia:hover {
+      transform: translateY(-5px);
+    }
+
+    .noticia img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .noticia h2 {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #0f172a;
+    }
+
+    .noticia p {
+      margin-top: 8px;
+      font-size: 0.95em;
+      color: #444;
+    }
+
+    footer {
+      background-color: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TecnoNoticias</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">IA</a></li>
+        <li><a href="#">Gadgets</a></li>
+        <li><a href="#">Startups</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="noticia">
+      <img src="https://via.placeholder.com/300x180" alt="IA noticia" />
+      <h2>La inteligencia artificial redefine la educación</h2>
+      <p>Plataformas con IA personalizan el aprendizaje para millones de estudiantes en todo el mundo.</p>
+    </section>
+
+    <section class="noticia">
+      <img src="https://via.placeholder.com/300x180" alt="Gadget noticia" />
+      <h2>Lanzan el smartwatch más delgado del mercado</h2>
+      <p>Con tecnología avanzada y diseño minimalista, este nuevo reloj marca tendencia en 2025.</p>
+    </section>
+
+    <section class="noticia">
+      <img src="https://via.placeholder.com/300x180" alt="Startup noticia" />
+      <h2>Startup latinoamericana revoluciona la movilidad urbana</h2>
+      <p>Con vehículos eléctricos autónomos, promete transformar el transporte en las grandes ciudades.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TecnoNoticias. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
